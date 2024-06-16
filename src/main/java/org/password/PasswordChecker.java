@@ -6,7 +6,6 @@ import java.util.regex.Pattern;
 
 /**
  * Hello world!
- *
  */
 public class PasswordChecker {
 
@@ -24,7 +23,6 @@ public class PasswordChecker {
         } else {
             System.out.println("Password is not complex enough. Make sure it contains at least one digit, one special character, and has a length of at least 8 characters.");
         }
-
     }
 
     public static boolean checkPasswordComplexity(String password) {
